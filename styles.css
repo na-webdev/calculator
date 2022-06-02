@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+body {
+  padding: 0;
+  background-color: #ff7060;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+table {
+  background-color: #efefef;
+  padding: 5px;
+  width: 225px;
+  height: 350px;
+  margin: 30px auto;
+  border-radius: 10px;
+  border-spacing: 15px;
+}
+
+th {
+  font-size: 24px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.expression {
+  font-size: 14px;
+}
+
+.hidden-element {
+  visibility: hidden;
+}
+
+td {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 20px;
+  color: grey;
+  font-size: 10px;
+}
+
+td:hover {
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+
+.numbers {
+  color: black;
+}
+
+td[colspan] {
+  border-radius: 5px;
+}
+
+.operations {
+  color: rgb(192, 189, 2);
+}
